@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2D5DE;
+    height: 100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main .box {
+    padding: 50px 0;
+}
+
+.input {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input h4 {
+    color: #5C5C5C;
+    margin-bottom: 20px;
+}
+
+.input div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input div textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+.input div button {
+    padding: 10px 20px;
+    background-color: #1266F1;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+    color: #454545;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    ;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between
+}
+
+.check-button {
+    margin-right: 10px;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+.fa-solid {
+    color: #1266F1;
+    font-size: small;
+    font-weight: bold;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Media query */
+
+@media screen and (max-width: 425px) {
+    main {
+        width: 80%;
+    }
+
+    .input {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .input div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .input div textarea {
+        height: 80px;
+        padding: 10px;
+    }
+
+    .input div button {
+        padding: 5px 40px;
+        margin: 20px 0;
+    }
+
+    .list {
+        width: 90%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 80%;
+    }
+
+    .input {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .input div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .input div textarea {
+        height: 80px;
+        padding: 10px;
+    }
+
+    .input div button {
+        padding: 5px 40px;
+        margin: 20px 0;
+    }
+
+    .list {
+        width: 90%;
+        margin-top: 30px;
+    }
+}
